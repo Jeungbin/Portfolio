@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-center">
         <Link style={linkStyle} to="/">
-          <h1 className="main-name">BINY PORTFOLIO</h1>
+          <h1 className="main-name">BINY's PORTFOLIO</h1>
         </Link>
       </div>
       <ul className="nav-links">
