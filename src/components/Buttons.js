@@ -10,6 +10,7 @@ let newData = newArray.filter((item) => {
   for (let i = 0; i < item.length; i++) {
     arrayItem.push(item[i]);
   }
+  return arrayItem;
 });
 newData = arrayItem;
 const allCategories = ["all", ...new Set(newData)];
