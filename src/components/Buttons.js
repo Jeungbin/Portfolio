@@ -1,18 +1,15 @@
 import React from "react";
 import { useState } from "react";
 import data from "../components/data";
+
 const newData = [];
-const items = data.map((item) => {
-  item.stack.map((stack) => {
-    return newData.push(stack);
-  });
-});
+
 const allCategories = ["all", ...new Set(newData)];
 
 const Buttons = () => {
   const [works, setWorks] = useState(data);
-  const [categories, setCategories] = useState(allCategories);
 
+  const categories = allCategories;
   const filterItems = (category) => {
     if (category === "all") {
       setWorks(data);

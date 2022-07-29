@@ -1,21 +1,42 @@
-a:link{
-    text-decoration: none;
-    color: blue;
+:root{
+    --dark: #2b2d42;
+    --light: #adb5bd;
+    --border: #dee2e6;
+    --border-btn: #edf2f4;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 li{
-    color: blue;
+    color: black;
     list-style-type: none;
 }
 
+/*Navbar CSS*/
 .nav-center{
     display: flex;
     width: 90vw;
-    justify-content: space-between;
+    justify-content: center;
     margin: 1rem auto;
-    align-items: center;
-    
 }
 
+.main-name{
+    transition: all 03 linear;
+}
+.main-name:hover{
+    color: aqua;
+}
+
+@media screen and (min-width:800px) {
+    .main-name{
+        
+    }
+}
 
 .works-container{
     display: flex;

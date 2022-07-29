@@ -1,21 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
 const Navbar = () => {
+  const linkStyle = {
+    textDecoration: "none",
+    color: "black",
+  };
   return (
-    <nav className="nacbar">
+    <nav className="navbar">
       <div className="nav-center">
-        <Link to="/">
-          <h1>Jeungbin's PortFolio</h1>
+        <Link style={linkStyle} to="/">
+          <h1 className="main-name">BINY's PORTFOLIO</h1>
         </Link>
-        <ul className="nav-links">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-        </ul>
       </div>
+      <ul className="nav-links">
+        <li>
+          <Link style={linkStyle} to="/">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link style={linkStyle} to="/about">
+            About
+          </Link>
+        </li>
+      </ul>
     </nav>
   );
 };
