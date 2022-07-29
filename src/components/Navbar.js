@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const linkStyle = {
     textDecoration: "none",
-    color: "black",
+    color: "#dee2e6",
   };
   return (
     <nav className="navbar">

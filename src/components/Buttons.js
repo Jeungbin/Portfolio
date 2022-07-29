@@ -2,10 +2,18 @@ import React from "react";
 import { useState } from "react";
 import data from "../components/data";
 
-const newData = [];
-
+const newArray = data.map((item) => {
+  return item.stack;
+});
+const arrayItem = [];
+let newData = newArray.filter((item) => {
+  for (let i = 0; i < item.length; i++) {
+    arrayItem.push(item[i]);
+  }
+});
+newData = arrayItem;
 const allCategories = ["all", ...new Set(newData)];
-
+//
 const Buttons = () => {
   const [works, setWorks] = useState(data);
 
