@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import data from "../components/data";
-
+import img1 from "../img/work1.svg";
 const newArray = data.map((item) => {
   return item.stack;
 });
@@ -63,21 +63,21 @@ const Buttons = () => {
                 </div>
                 <div className="icons">
                   {website ? (
-                    <a href={website}>
+                    <a href={website} target="_blank" rel="noopener noreferrer">
                       <i className="fa-solid fa-w"></i>
                     </a>
                   ) : (
                     ""
                   )}
                   {figma ? (
-                    <a href={figma}>
+                    <a href={figma} target="_blank" rel="noopener noreferrer">
                       <i className="fa-brands fa-figma"></i>
                     </a>
                   ) : (
                     ""
                   )}
                   {git ? (
-                    <a href={git}>
+                    <a href={git} target="_blank" rel="noopener noreferrer">
                       <i className="fa-brands fa-github"></i>
                     </a>
                   ) : (

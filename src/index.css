@@ -258,9 +258,11 @@ li{
 .work-img{
     width: 100%;
     height: 100%;
+    border-radius: var(--radius);
 }
 .stack{
     color: var(--base-dark-blue);
+    padding-left: 0.5em;
 }
 
 /*Icons container*/
