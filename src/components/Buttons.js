@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import data from "../components/data";
-import image1 from "../img/work1.svg";
 
 const newArray = data.map((item) => {
   return item.stack;
@@ -63,15 +62,27 @@ const Buttons = () => {
                   ))}
                 </div>
                 <div className="icons">
-                  <a href={website} target="_blank">
-                    <i className="fa-solid fa-w"></i>
-                  </a>
-                  <a href={figma} target="_blank">
-                    <i className="fa-brands fa-figma"></i>
-                  </a>
-                  <a href={git} target="_blank">
-                    <i className="fa-brands fa-github"></i>
-                  </a>
+                  {website ? (
+                    <a href={website}>
+                      <i className="fa-solid fa-w"></i>
+                    </a>
+                  ) : (
+                    ""
+                  )}
+                  {figma ? (
+                    <a href={figma}>
+                      <i className="fa-brands fa-figma"></i>
+                    </a>
+                  ) : (
+                    ""
+                  )}
+                  {git ? (
+                    <a href={git}>
+                      <i className="fa-brands fa-github"></i>
+                    </a>
+                  ) : (
+                    ""
+                  )}
                 </div>
               </section>
             );

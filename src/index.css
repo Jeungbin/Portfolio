@@ -266,11 +266,11 @@ li{
 /*Icons container*/
 
 .icons{
-    width: 25%;
+    width: auto;
     margin-bottom: 0.5rem;
-    display: grid;
+    display: flex;
     margin: 0.5rem;
-    grid-template-columns: repeat(3, 1fr);
+    
 }
 .fa-w,
 .fa-figma,

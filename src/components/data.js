@@ -1,7 +1,7 @@
 const data = [
   {
     id: 1,
-    img: "	http://localhost:3000/static/media/work1.e7d4ca2bed5ac555eeccb423ce96769a.svg",
+    img: "http://localhost:3000/static/media/work3.e641713a292da523ab2d4221a97c2995.svg",
     name: "Japaness Academy's Study Platform",
     stack: ["Design"],
     website: "",
@@ -11,7 +11,7 @@ const data = [
   },
   {
     id: 2,
-    img: "../img/image.png",
+    img: "http://localhost:3000/static/media/work1.e7d4ca2bed5ac555eeccb423ce96769a.svg",
     name: "Japaness Academy Website-var2",
     stack: ["Design"],
     website: "www.naver.com",
@@ -20,7 +20,7 @@ const data = [
   },
   {
     id: 3,
-    img: "../img/image.png",
+    img: "http://localhost:3000/static/media/work2.0d5bb3ca364343e70ee1ca2a3f9eee90.svg",
     name: "Japaness Academy Website",
     stack: ["Design"],
     website: "",

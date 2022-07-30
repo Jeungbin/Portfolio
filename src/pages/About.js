@@ -16,13 +16,10 @@ const About = () => {
         My goal is to create a user-friendly and well- refined website.
       </p>
       <div className="fonts">
-        <a href="https://jeungbin.tistory.com/" target="_blank">
+        <a href="https://jeungbin.tistory.com/">
           <i className="fa-solid fa-blog"></i>
         </a>
-        <a
-          href="https://www.linkedin.com/in/jeungbin-han-aa2815237"
-          target="_blank"
-        >
+        <a href="https://www.linkedin.com/in/jeungbin-han-aa2815237">
           <i className="fa-brands fa-linkedin"></i>
         </a>
       </div>
