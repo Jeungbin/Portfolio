@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import data from "../components/data";
+import image1 from "../img/work1.svg";
 
 const newArray = data.map((item) => {
   return item.stack;
@@ -29,33 +30,55 @@ const Buttons = () => {
   };
 
   return (
-    <>
-      <div>
-        {categories.map((category, index) => {
-          return (
-            <button
-              key={index}
-              type="button"
-              onClick={() => filterItems(category)}
-            >
-              {category}
-            </button>
-          );
-        })}
-      </div>
-      <div className="works-container">
-        {works?.map((item) => {
-          return (
-            <section className="work" key={item.id}>
-              <h1>{item.name}</h1>
-              {item.stack.map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </section>
-          );
-        })}
-      </div>
-    </>
+    <div className="main-container">
+      <section className="section-center">
+        <div className="category-container">
+          {categories.map((category, index) => {
+            return (
+              <button
+                key={index}
+                type="button"
+                className="category"
+                onClick={() => filterItems(category)}
+              >
+                {category}
+              </button>
+            );
+          })}
+        </div>
+
+        <div className="works-container">
+          {works?.map((item) => {
+            const { id, name, img, website, figma, git } = item;
+            return (
+              <section className="work" key={id}>
+                <p className="work-name">{name}</p>
+
+                <img className="work-img" src={img} alt="" />
+                <div className="stack-containers">
+                  {item.stack.map((item, index) => (
+                    <li key={index} className="stack">
+                      {item}
+                    </li>
+                  ))}
+                </div>
+                <div className="icons">
+                  <a href={website} target="_blank">
+                    <i className="fa-solid fa-w"></i>
+                  </a>
+                  <a href={figma} target="_blank">
+                    <i className="fa-brands fa-figma"></i>
+                  </a>
+                  <a href={git} target="_blank">
+                    <i className="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </section>
+            );
+          })}
+        </div>
+      </section>
+    </div>
   );
 };
 
