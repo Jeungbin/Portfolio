@@ -174,12 +174,9 @@ li{
     
     
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:400px){
     .category-container{
-    
-        width: 95%;
-        
-        
+        width: 85%;
     }
 }
 .button-center{
@@ -248,7 +245,7 @@ li{
     padding: 0.5rem;
     padding-bottom: 2rem;
     display: grid;
-    grid-template-rows: 10% 70% 10% 10%;
+    grid-template-rows: 15% 60% 15% 10%;
     row-gap: 0.5rem;
     border-radius:var(--radius);
     width: 100%;
