@@ -32,18 +32,20 @@ const Buttons = () => {
     <div className="main-container">
       <section className="section-center">
         <div className="category-container">
-          {categories.map((category, index) => {
-            return (
-              <button
-                key={index}
-                type="button"
-                className="category"
-                onClick={() => filterItems(category)}
-              >
-                {category}
-              </button>
-            );
-          })}
+          <div className="button-center">
+            {categories.map((category, index) => {
+              return (
+                <button
+                  key={index}
+                  type="button"
+                  className="category"
+                  onClick={() => filterItems(category)}
+                >
+                  {category}
+                </button>
+              );
+            })}
+          </div>
         </div>
 
         <div className="works-container">
