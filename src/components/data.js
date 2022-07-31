@@ -35,7 +35,7 @@ const data = [
     stack: ["JavaScript", "Firebase"],
     website: "https://js-and-firebase-assignment.jeungbinhan.repl.co/",
     figma: "",
-    git: "",
+    git: "https://github.com/Jeungbin/Firebase-and-JavaScipt_birthdayProject",
   },
   {
     id: 5,
