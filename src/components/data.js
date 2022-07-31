@@ -30,7 +30,7 @@ const data = [
   },
   {
     id: 4,
-    img: "../img/firebase.png",
+    img: "img/firebase.png",
     name: "Firebase Pjoject",
     stack: ["JavaScript", "Firebase"],
     website: "https://js-and-firebase-assignment.jeungbinhan.repl.co/",
@@ -39,7 +39,7 @@ const data = [
   },
   {
     id: 5,
-    img: "../img/image.png",
+    img: "img/portfolio.png",
     name: "My Portfolio",
     stack: ["React", "JavaScript"],
     website: "https://main--jbinportfoli.netlify.app/",
@@ -48,9 +48,9 @@ const data = [
   },
   {
     id: 6,
-    img: "../img/image.png",
-    name: "d",
-    stack: ["React", "JavaScript"],
+    img: "",
+    name: "Management App with CRUD",
+    stack: ["JavaScript", "Node", "Express", "MongoDB"],
     website: "",
     figma: "",
     git: "",

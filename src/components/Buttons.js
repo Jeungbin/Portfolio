@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import data from "../components/data";
-import img1 from "../img/work1.svg";
+
 const newArray = data.map((item) => {
   return item.stack;
 });
@@ -53,7 +53,11 @@ const Buttons = () => {
               <section className="work" key={id}>
                 <p className="work-name">{name}</p>
 
-                <img className="work-img" src={img} alt="" />
+                {img ? (
+                  <img className="work-img" src={img} alt="" />
+                ) : (
+                  <p className="not-yet">I'm working on it now!</p>
+                )}
                 <div className="stack-containers">
                   {item.stack.map((item, index) => (
                     <li key={index} className="stack">
