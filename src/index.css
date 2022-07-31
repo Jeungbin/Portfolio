@@ -243,10 +243,10 @@ li{
 .work{
     place-items: center;
     padding: 0.5rem;
-    padding-bottom: 2rem;
+
     display: grid;
-    grid-template-rows: 15% 60% 15% 10%;
-    row-gap: 0.5rem;
+
+    row-gap: 0.1rem;
     border-radius:var(--radius);
     width: 100%;
     text-align: center;
@@ -256,6 +256,23 @@ li{
 
 .work-name{
     font-size: 1rem;
+    margin:0.5rem auto;
+}
+
+.work-img{
+    width: 360px;
+    height: 250px;
+    border-radius: var(--radius);
+}
+
+@media screen and (max-width:500px){
+    .work{
+        display: grid;
+
+        padding: 0.3rem;
+
+    row-gap: 0.3rem;
+    }
 }
 
 @media screen and (min-width:1000px) {
@@ -265,7 +282,10 @@ li{
     .work{
         width: 90%;
     }
-}
+    .work-img{
+        width: 100%;
+        height: 100%;
+}}
 
 /*works container*/
 .stack-containers{
@@ -276,14 +296,18 @@ li{
 
 }
 
-.work-img{
-    width: 100%;
-    height: 100%;
-    border-radius: var(--radius);
-}
+
 .stack{
     color: var(--base-dark-blue);
     padding-left: 0.5em;
+}
+
+@media screen and (max-width:500px){
+    .work-img{
+        width: 380px;
+        height: 250px;
+        border-radius: var(--radius);
+    }
 }
 
 /*Icons container*/
