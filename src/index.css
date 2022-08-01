@@ -217,6 +217,9 @@ span{
     .category-container{
         width: 85%;
     }
+    .works-container{
+        width: 95vw;
+    }
 }
 .works-container{
     margin-top: 2rem;
@@ -330,8 +333,6 @@ span{
     margin: 5rem auto;
     margin-top: 3rem;
     text-align: center;
-    width: 80vw;
-    
 }
 
 .about-container p{
@@ -339,6 +340,10 @@ span{
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 32px;
     text-align:left;
+    margin: 0 1rem;
+}
+.about-img{
+    margin-left: 1.5rem;
 }
 .fonts{
     display: flex;

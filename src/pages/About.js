@@ -3,7 +3,7 @@ import image from "../components/main-img.png";
 const About = () => {
   return (
     <section className="about-container">
-      <img src={image} alt="" />
+      <img className="about-img" src={image} alt="" />
       <p>
         One year of experience in the web design industry designing a website to
         fit a company’s image and meet users’ needs.
