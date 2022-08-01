@@ -48,6 +48,15 @@ const data = [
   },
   {
     id: 6,
+    img: "img/express.png",
+    name: "[Practice] Management App with CRUD",
+    stack: ["JavaScript", "Express", "MongoDB", "EJS"],
+    website: "",
+    figma: "",
+    git: "https://github.com/Jeungbin/CRUD_Practice-with-express-node-and-MD",
+  },
+  {
+    id: 6,
     img: "",
     name: "Management App with CRUD",
     stack: ["JavaScript", "Node", "Express", "MongoDB"],
