@@ -13,6 +13,8 @@ const About = () => {
         <br />
         I love using 'React'.
         <br />
+        I'm learning Node and Express! I'm enjoying learning.
+        <br />
         My goal is to create a user-friendly and well- refined website.
       </p>
       <div className="fonts">
