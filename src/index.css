@@ -27,7 +27,10 @@ li{
     color: var(--base-dark-blue);
     list-style-type: none;
 }
-
+span{
+    color: var(--base-green);
+    font-size: 24px;
+}
 
 /*Navbar CSS*/
 
@@ -333,8 +336,8 @@ li{
 
 .about-container p{
     color: rgb(25, 25, 25);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 32px;
     text-align:left;
 }
 .fonts{

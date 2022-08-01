@@ -7,13 +7,14 @@ const About = () => {
       <p>
         One year of experience in the web design industry designing a website to
         fit a company’s image and meet users’ needs.
-        <br /> Knowledge of design using FIGMA,
-        <br /> styling a website using CSS and Bootstrap, and Building
-        interactive JavaScript websites.
+        <br /> Knowledge of design using <span>FIGMA</span>,
+        <br /> styling a website using <span>CSS</span> and{" "}
+        <span>Bootstrap</span>, and Building interactive <span>JavaScript</span>{" "}
+        websites.
+        <br />I love using <span>'React'</span>.
         <br />
-        I love using 'React'.
-        <br />
-        I'm learning Node and Express! I'm enjoying learning.
+        I'm learning <span>Node</span> and <span>Express</span>! I'm enjoying
+        learning.
         <br />
         My goal is to create a user-friendly and well- refined website.
       </p>
