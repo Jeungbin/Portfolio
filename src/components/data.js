@@ -35,7 +35,7 @@ const data = [
     stack: ["JavaScript", "Firebase"],
     website: "https://js-and-firebase-assignment.jeungbinhan.repl.co/",
     figma: "",
-    git: "https://github.com/Jeungbin/Firebase-and-JavaScipt_birthdayProject",
+    //git: "https://github.com/Jeungbin/Firebase-and-JavaScipt_birthdayProject",
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ const data = [
     stack: ["React", "JavaScript"],
     website: "https://main--jbinportfoli.netlify.app/",
     figma: "",
-    git: "https://github.com/Jeungbin/Portfolio",
+    //git: "https://github.com/Jeungbin/Portfolio",
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ const data = [
     stack: ["JavaScript", "Express", "MongoDB", "EJS"],
     website: "",
     figma: "",
-    git: "https://github.com/Jeungbin/CRUD_Practice-with-express-node-and-MD",
+    //git: "https://github.com/Jeungbin/CRUD_Practice-with-express-node-and-MD",
   },
   {
     id: 6,
