@@ -53,7 +53,7 @@ const data = [
     stack: ["JavaScript", "Express", "MongoDB", "EJS"],
     website: "",
     figma: "",
-    //git: "https://github.com/Jeungbin/CRUD_Practice-with-express-node-and-MD",
+    git: "https://github.com/Jeungbin/CRUD_Practice-with-express-node-and-MD",
   },
   {
     id: 6,
