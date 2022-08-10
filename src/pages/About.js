@@ -1,6 +1,6 @@
 import React from "react";
 import image from "../img/main-img.png";
-import image2 from "../img/Sungshin1.jpg";
+
 import image4 from "../img/KakaoTalk_20220805_120053768.png";
 import image5 from "../img/Group 1.svg";
 import image6 from "../img/Group 2.svg";
@@ -8,17 +8,14 @@ import image7 from "../img/KakaoTalk_20220805_121255442.png";
 const About = () => {
   return (
     <section className="about-container">
-      <img className="about-img" src={image} alt="" />
       <div className="center">
         <section className="first-info">
-          <img src={image2} className="school-img" alt="" />
-          <div className="first-info-box">
-            <p>
-              I majored in business administration and studied marketing at
-              university. <br></br>While studying at university, I worked
-              part-time as an English and Korean teacher at a small academy.
-            </p>
-          </div>
+          <img className="about-img" src={image} alt="" />
+          <p>
+            I majored in business administration and studied marketing at
+            university. <br></br>While studying at university, I worked
+            part-time as an English and Korean teacher at a small academy.
+          </p>
         </section>
         <section className="sec-info">
           <i className="fa-solid fa-virus-covid"></i>
