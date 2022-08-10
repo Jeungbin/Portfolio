@@ -18,20 +18,14 @@ const About = () => {
           </p>
         </section>
         <section className="sec-info">
-          <i className="fa-solid fa-virus-covid"></i>
           <div className="sec-info-box">
             <p>
               Due to COVID-19, <br></br>
               the number of students at the academy has decreased significantly.
+              I realized that We should start online education.
             </p>
           </div>
-        </section>
-
-        <section className="third-info">
-          <div className="third-info-box">
-            <p>I realized that We should start online education.</p>
-          </div>
-          <img src={image4} className="school-img" alt="" />
+          <img src={image4} className="thinkImg" alt="" />
         </section>
 
         <section className="four-info">
