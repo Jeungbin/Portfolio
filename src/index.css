@@ -13,16 +13,15 @@
 }
 
 * {
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-
-
+body{
+    background-color: white;
 }
 li{
     color: var(--base-dark-blue);
@@ -37,10 +36,8 @@ span{
 
 .nav-center{
     display: flex;
-    width: 90vw;
-    justify-content: center;
+    width: 75vw;
     margin: 0 auto;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
 }
 
 .main-name{
@@ -49,8 +46,15 @@ span{
     font-size: 2.5rem;
     transition: all 0.3s linear;
 }
-.main-name:hover{
+.main-name:hover,
+.nav-link:hover{
     color: #81b29a;
+}
+.main-name2{
+    font-weight: 500;
+    margin-top: 3rem;
+    font-size: 2rem;
+    transition: all 0.3s linear;
 }
 .links-container{
     position: fixed;
@@ -63,7 +67,7 @@ span{
     text-align: center;
 }
 .fa-circle-xmark{
-    color: white;
+    color: black;
     font-size: 5rem;
     transition: all 0.3s linear;
     cursor: pointer;
@@ -79,11 +83,9 @@ span{
     padding-bottom: 1rem;
     transition: all 0.3s linear;
 }
-.nav-link:hover{
-    color: var(--base-dark-blue);
-}
+
 .fa-circle-xmark{
-    color: #edf2f4;
+    color: black;
     font-size: 2rem;
     margin: 1rem 0;
 }
@@ -151,6 +153,10 @@ span{
         margin-top: 3.5rem;
         font-size: 1.5rem;
     }
+    .main-name2{
+        
+        font-size: 1.2rem;
+    }
 
     .fa-circle-xmark{
         font-size: 1rem;
@@ -189,11 +195,11 @@ span{
 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 1rem;
+        gap: 0.5rem;
         flex-wrap: wrap;
     }
     .category{
-       font-size: 10px;
+       font-size: 15px;
     }
 }
 
@@ -386,7 +392,7 @@ span{
 .first-info p{
     
     padding: 0.5rem;
-background: rgba(253, 252, 220, 0.7);
+background: var(--base-green);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 5px;
     display: flex;
@@ -413,7 +419,7 @@ border-radius: 5px;
 
 .sec-info-box{
     padding: 0.5rem;
-background: rgba(253, 252, 220, 0.7);
+background: var(--base-green);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 5px;
 margin-left: 1.5rem;
@@ -449,7 +455,7 @@ margin-left: 1.5rem;
     position: absolute;
     top: 50%;
     padding: 0.5rem;
-    background: #FAE3CE;
+    background: var(--base-green);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
 
@@ -466,7 +472,7 @@ margin-left: 1.5rem;
     padding: 1rem;
     
 
-    background: #FAE3CE;
+    background: var(--base-green);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
 

@@ -4,7 +4,6 @@ const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
   const starIconRef = useRef(null);
   const linksContainerRef = useRef(null);
-
   useEffect(() => {
     if (showLinks) {
       linksContainerRef.current.style.height = "100vh";
@@ -12,16 +11,18 @@ const Navbar = () => {
       linksContainerRef.current.style.height = "0px";
     }
   }, [showLinks]);
-
   const linkStyle = {
     textDecoration: "none",
-    color: "#dee2e6",
+    color: "black",
   };
   return (
     <nav className="navbar">
       <div className="nav-center">
         <Link style={linkStyle} to="/">
-          <h1 className="main-name">Hello! I'm Jeungbin Han</h1>
+          <h1 className="main-name">
+            Hello I'm Jeungbin Han<br></br>
+            <span className="main-name2">This is my Portfolio</span>
+          </h1>
         </Link>
       </div>
       <i
