@@ -1,5 +1,14 @@
 const data = [
   {
+    id: 7,
+    img: "img/Desktop - 1.svg",
+    name: "[WorkingOn]Management App,CRUD",
+    stack: ["JavaScript", "Node", "Express", "MongoDB"],
+    website: "",
+    figma: "",
+    git: "",
+  },
+  {
     id: 1,
     img: "img/work3.svg",
     name: "Japaness Academy's Study Platform",
@@ -49,20 +58,11 @@ const data = [
   {
     id: 6,
     img: "img/express.png",
-    name: "[Practice] Management App",
+    name: "[Practice] Management App,CRUD",
     stack: ["JavaScript", "Express", "MongoDB", "EJS"],
     website: "",
     figma: "",
     git: "https://github.com/Jeungbin/CRUD_Practice-with-express-node-and-MD",
-  },
-  {
-    id: 7,
-    img: "",
-    name: "Management App with CRUD",
-    stack: ["JavaScript", "Node", "Express", "MongoDB"],
-    website: "",
-    figma: "",
-    git: "",
   },
 ];
 

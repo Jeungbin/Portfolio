@@ -41,9 +41,9 @@ span{
 }
 
 .main-name{
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 3rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     transition: all 0.3s linear;
 }
 .main-name:hover,
@@ -51,10 +51,20 @@ span{
     color: #81b29a;
 }
 .main-name2{
-    font-weight: 500;
+    font-weight: 400;
     margin-top: 3rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     transition: all 0.3s linear;
+}
+@media screen and (min-width:1000px) {
+    .main-name{
+        font-weight: 600;
+
+    }
+    .main-name2{
+        font-weight: 500;
+
+    }
 }
 .links-container{
     position: fixed;
