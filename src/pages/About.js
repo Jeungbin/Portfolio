@@ -1,5 +1,4 @@
 import React from "react";
-import image from "../img/main-img.png";
 
 import image4 from "../img/KakaoTalk_20220825_083817267.jpg";
 

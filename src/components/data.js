@@ -56,7 +56,7 @@ const data = [
     git: "https://github.com/Jeungbin/CRUD_Practice-with-express-node-and-MD",
   },
   {
-    id: 6,
+    id: 7,
     img: "",
     name: "Management App with CRUD",
     stack: ["JavaScript", "Node", "Express", "MongoDB"],
