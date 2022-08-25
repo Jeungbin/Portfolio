@@ -260,6 +260,7 @@ span{
 }
 
 .work-name{
+    position: relative;
     font-family: Hind,sans-serif;
     color: #222;
     font-size: 20px;
@@ -267,6 +268,20 @@ span{
     font-weight: 500;
     text-align: left;
     margin-top: 0.5rem;
+    position: relative;
+
+    
+}
+.work-name:after{
+    content: '';
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    width: 90%;
+    height: 35%;
+    background-color: #c8efb8;
+    z-index: -10;
+ 
 }
 
 .work-img{
@@ -313,7 +328,8 @@ span{
 }
 
 .stack{
-    background-color: #a0d7bc;
+    background-color: #f0f0f0;
+    font-weight: 500;
     color: var(--base-dark-blue);
     padding: 0.5em;
     border-radius: 1rem;

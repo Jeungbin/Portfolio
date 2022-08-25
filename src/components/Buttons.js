@@ -58,7 +58,7 @@ const Buttons = () => {
                 ) : (
                   <p className="not-yet">I'm working on it now!</p>
                 )}
-                <p className="work-name">{name}</p>
+                <h1 className="work-name">{name}</h1>
                 <div className="stack-containers">
                   {item.stack.map((item, index) => (
                     <li key={index} className="stack">
