@@ -451,3 +451,9 @@ span{
         width: 100%;
     }
 }
+
+.work-img{
+    width: 360px;
+    height: 250px;
+    border-radius: var(--radius);
+}

@@ -49,7 +49,7 @@ const data = [
   {
     id: 6,
     img: "img/express.png",
-    name: "[Practice] Management App with CRUD",
+    name: "[Practice] Management App",
     stack: ["JavaScript", "Express", "MongoDB", "EJS"],
     website: "",
     figma: "",
