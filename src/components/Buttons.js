@@ -53,13 +53,12 @@ const Buttons = () => {
             const { id, name, img, website, figma, git } = item;
             return (
               <section className="work" key={id}>
-                <p className="work-name">{name}</p>
-
                 {img ? (
                   <img className="work-img" src={img} alt="" />
                 ) : (
                   <p className="not-yet">I'm working on it now!</p>
                 )}
+                <p className="work-name">{name}</p>
                 <div className="stack-containers">
                   {item.stack.map((item, index) => (
                     <li key={index} className="stack">
