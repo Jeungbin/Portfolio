@@ -463,7 +463,15 @@ span{
 }
 
 .work-img{
+    justify-self: center;
     width: 360px;
     height: 250px;
     border-radius: var(--radius);
+}
+
+.work-explain{
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    margin-bottom: 0.3rem;
 }
