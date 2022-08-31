@@ -4,7 +4,7 @@ import "./index.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
-import Management_app from "./components/ManagementApp";
+import ManagementApp from "./components/ManagementApp";
 
 function App() {
   return (
