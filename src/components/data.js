@@ -8,7 +8,8 @@ const data = [
     stack: ["JavaScript", "Node", "Express", "MongoDB"],
     website: "",
     figma: "",
-    git: "",
+    git: "https://github.com/Jeungbin/Yoshiko-Management-App",
+    href: "/management_app",
   },
   {
     id: 1,

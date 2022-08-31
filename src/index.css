@@ -204,12 +204,12 @@ span{
     .button-center{
 
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 0.5rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
         flex-wrap: wrap;
     }
     .category{
-       font-size: 15px;
+       font-size: 12px;
     }
 }
 
@@ -354,6 +354,11 @@ span{
     }
 }
 
+.detailInfo{
+    color: #222;
+    font-size: 0.8rem;
+}
+
 /*Icons container*/
 
 .icons{
@@ -496,4 +501,29 @@ span{
     line-height: 23px;
     font-weight: 400;
     margin-bottom: 0.3rem;
+}
+
+.management-info-name{
+    padding: 3rem;
+    margin: 0 auto;
+    width: 100vw;
+    background-color: #e07a5f;
+}
+
+.management-info-name div{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.management-info-name h1{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.fa-list-check{
+    font-size: 2rem;
+    align-self: flex-end;
 }

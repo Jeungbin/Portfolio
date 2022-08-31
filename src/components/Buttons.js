@@ -50,7 +50,7 @@ const Buttons = () => {
 
         <div className="works-container">
           {works?.map((item) => {
-            const { id, name, img, website, figma, git, explain } = item;
+            const { id, name, img, website, figma, git, explain, href } = item;
             return (
               <section className="work" key={id}>
                 {img ? (
@@ -90,6 +90,11 @@ const Buttons = () => {
                     ""
                   )}
                 </div>
+                <p>
+                  <a className="detailInfo" href={href ? href : "#"}>
+                    Detail Info
+                  </a>
+                </p>
               </section>
             );
           })}
