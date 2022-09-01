@@ -50,7 +50,7 @@ const Buttons = () => {
 
         <div className="works-container">
           {works?.map((item) => {
-            const { id, name, img, website, figma, git, explain, href } = item;
+            const { id, name, img, website, figma, git, explain } = item;
             return (
               <section className="work" key={id}>
                 {img ? (
