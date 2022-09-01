@@ -1,4 +1,4 @@
-const ManagementApp = () => {
+const Managementapp = () => {
   return (
     <>
       <div className="main-container">
@@ -22,4 +22,4 @@ const ManagementApp = () => {
     </>
   );
 };
-export default ManagementApp;
+export default Managementapp;
