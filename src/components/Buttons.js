@@ -90,11 +90,15 @@ const Buttons = () => {
                     ""
                   )}
                 </div>
-                <p>
-                  <a className="detailInfo" href={href ? href : "#"}>
-                    Detail Info
-                  </a>
-                </p>
+                {id == 7 ? (
+                  <p>
+                    <a className="detailInfo" href={href ? href : "#"}>
+                      Detail Info
+                    </a>
+                  </p>
+                ) : (
+                  ""
+                )}
               </section>
             );
           })}
