@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import data from "../components/data";
 
 const newArray = data.map((item) => {
@@ -50,7 +51,7 @@ const Buttons = () => {
 
         <div className="works-container">
           {works?.map((item) => {
-            const { id, name, img, website, figma, git, explain } = item;
+            const { id, name, img, website, figma, git, explain, href } = item;
             return (
               <section className="work" key={id}>
                 {img ? (
@@ -90,11 +91,15 @@ const Buttons = () => {
                     ""
                   )}
                 </div>
-                <p>
-                  <a className="detailInfo" href="/info">
-                    Detail Info
-                  </a>
-                </p>
+                {href ? (
+                  <p>
+                    <Link className="detailInfo" to={href}>
+                      Detail Info
+                    </Link>
+                  </p>
+                ) : (
+                  ""
+                )}
               </section>
             );
           })}
