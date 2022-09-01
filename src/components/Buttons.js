@@ -92,7 +92,7 @@ const Buttons = () => {
                 </div>
                 {id == 7 ? (
                   <p>
-                    <a className="detailInfo" href={href ? href : "#"}>
+                    <a className="detailInfo" href="/info">
                       Detail Info
                     </a>
                   </p>
