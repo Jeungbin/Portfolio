@@ -90,7 +90,7 @@ const Buttons = () => {
                     ""
                   )}
                 </div>
-                {id == 7 ? (
+                {id === 7 ? (
                   <p>
                     <a className="detailInfo" href="/info">
                       Detail Info
