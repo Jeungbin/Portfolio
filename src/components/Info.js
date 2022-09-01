@@ -1,6 +1,4 @@
-import React from "react";
-
-const Managementapp = () => {
+const Info = () => {
   return (
     <>
       <div className="main-container">
@@ -24,4 +22,5 @@ const Managementapp = () => {
     </>
   );
 };
-export default Managementapp;
+
+export default Info;

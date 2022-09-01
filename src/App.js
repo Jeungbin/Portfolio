@@ -4,7 +4,7 @@ import "./index.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
-import Managementapp from "./components/Managementapp";
+import Info from "./components/Info";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="managementapp" element={<Managementapp />} />
+        <Route path="info" element={<Info />} />
       </Routes>
     </Router>
   );

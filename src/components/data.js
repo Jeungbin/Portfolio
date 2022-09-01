@@ -9,7 +9,7 @@ const data = [
     website: "",
     figma: "",
     git: "https://github.com/Jeungbin/Yoshiko-Management-App",
-    href: "/managementapp",
+    href: "/info",
   },
   {
     id: 1,
