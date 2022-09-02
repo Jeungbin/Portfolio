@@ -104,7 +104,10 @@ const Info = () => {
                 <p className=" answser">
                   - I used the firebase to store manager's email and password.
                   If someone wants to access this website, his email and
-                  password should be saved in firebase
+                  password should be saved in firebase <br></br>- Only
+                  authorized personnel (teachers, principals) are allowed
+                  access. The mail and password of the article are stored in the
+                  firebase.
                 </p>
                 <div className="minor-answer">
                   <i className="fa-solid fa-circle-check"></i>
@@ -114,6 +117,15 @@ const Info = () => {
                   <img src="img/login.png" className="moving-img" alt="" />
                 </div>
               </div>
+            </div>
+            <div>
+              <div className="first-question question">
+                <i class="fa-solid fa-person-digging"></i>
+                <h4>Working on...</h4>
+              </div>
+              <p className="first-answer answser">
+                Now I'm going to include the chat function.
+              </p>
             </div>
           </section>
         </section>

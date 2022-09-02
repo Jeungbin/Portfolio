@@ -576,7 +576,8 @@ p{
     align-items: center;
 }
 .fa-fire,
-.fa-circle-check{
+.fa-circle-check,
+.fa-person-digging{
     margin-right: 1rem;
     font-size: 1.5rem;
     color: #e07a5f;
