@@ -507,10 +507,31 @@ span{
     padding: 3rem;
     margin: 0 auto;
     width: 100vw;
-    background-color: #e07a5f;
+    background-image: url('/src/img/cool-background\ \(1\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.moving-img{
+    border-radius: 1rem;
+    margin-top: 2rem;
+    width: 60%;
+    margin-bottom: 2rem;
+}
+.explain-img{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    width: 80%;
 }
 
-.management-info-name div{
+
+.container-space{
     margin: 0 auto;
     width: 80%;
     display: flex;
@@ -526,4 +547,73 @@ span{
 .fa-list-check{
     font-size: 2rem;
     align-self: flex-end;
+}
+.stack-info{
+    margin-right: 2rem;
+}
+.stack-name{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 400;
+}
+.stacks{
+    margin-top: 0.5rem;
+    color: #dee2e6;
+}
+
+/* individual App info */
+p{
+    font-weight: 400;
+}
+.detail-info{
+    width: 75vw;
+    margin-top: 1rem;
+}
+
+.first-question,
+.question{
+    display: flex;
+    align-items: center;
+}
+.fa-fire,
+.fa-circle-check{
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    color: #e07a5f;
+}
+.first-answer,
+.answser{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    line-height: 2rem;
+}
+.minor-answer{
+    margin-top: 1rem;
+    align-items: center;
+    margin-left: 3rem;
+    display: flex;
+}
+.minor-answer .fa-circle-check{
+    color: #81b29a;
+}
+.answser h5{
+    
+}
+
+.second-question{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.minor-question{
+    font-style: italic;
+    font-weight: 500;
+}
+
+.first-answer-span{
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+    font-style: italic;
 }
