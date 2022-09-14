@@ -1,5 +1,17 @@
 const data = [
   {
+    id: 8,
+    img: "img/chatApp.png",
+    name: "[WorkingOn]Chat App",
+    explain:
+      "This website is using for chatting with other users and posting feeds",
+    stack: ["React", "Node", "Express", "MongoDB"],
+    website: "",
+    figma: "",
+    git: "https://github.com/Jeungbin/MERN-social-final",
+    href: "/InfoTwo",
+  },
+  {
     id: 7,
     img: "img/Desktop - 1.svg",
     name: "[WorkingOn]Management App,CRUD",

@@ -1,21 +1,22 @@
-const Info = () => {
+const InfoTwo = () => {
   return (
     <>
       <div className="main-container">
         <section className="section-center">
-          <div className="management-info-name">
+          <div className="management-info-name-two">
             <div className="container-space">
               <div>
                 <h1>
-                  Yoshiko <br />
-                  Management
+                  Chat
+                  <br />
+                  Post
                   <br /> Application
                 </h1>
               </div>
               <div className="stack-info">
-                <h4 className="stack-name">Stack</h4>
-                <p className="stacks">
-                  HTML, CSS, JavaScript,<br></br> NodeJS, Express, MongoDB
+                <h4 className="stack-name stack-name2">Stack</h4>
+                <p className="stacks stacks2">
+                  HTML, CSS, React,<br></br> NodeJS, Express, MongoDB
                 </p>
               </div>
             </div>
@@ -28,17 +29,8 @@ const Info = () => {
                 <h4>Background</h4>
               </div>
               <p className="first-answer answser">
-                <span className="first-answer-span">For My Mother</span>
-                <br></br>
-                My mom runs a small academy. As the director of the academy, she
-                manages students and teachers alone. It's a small academy, but
-                there needs care a lot.<br></br> When the student started the
-                class and whether the student was properly distributed according
-                to the teacher. Students have different periods of paying
-                tuition, so they should check every day and check when the class
-                ends. It is difficult to manage even a small number of students
-                alone.<br></br>
-                So, I havs started to make this app for her.
+                I created this web to practice react, express interworking, and
+                data management using mongodb.
               </p>
             </div>
 
@@ -53,19 +45,18 @@ const Info = () => {
                 </p>
 
                 <p className="minor-question">
-                  1 . How does the manager manage users(students) effectively?
+                  1 . How do you configure the react component?
                 </p>
-                <p className=" answser">- I used table to organize user</p>
+                <p className=" answser">
+                  - I planned the layout of the react components using a
+                  diagram.
+                </p>
                 <div className="minor-answer">
                   <i className="fa-solid fa-circle-check"></i>
-                  <h5>Organize And Filter Users</h5>
+                  <h5>Organize the layout of React components</h5>
                 </div>
                 <div className="img-container">
-                  <img
-                    src="img/filterExplain.svg"
-                    className="explain-img"
-                    alt=""
-                  />
+                  <img src="img/diagram.png" className="explain-img" alt="" />
                 </div>
 
                 <div className="minor-answer">
@@ -73,48 +64,44 @@ const Info = () => {
                   <h5>Create , Update, Delete Users</h5>
                 </div>
                 <div className="img-container">
+                  <img src="img/register.png" className="explain-img" alt="" />
+                </div>
+                <div className="img-container">
                   <img
-                    src="img/createExplain.png"
+                    src="img/loginChat (1).png"
                     className="explain-img"
                     alt=""
                   />
                 </div>
 
                 <p className="minor-question">
-                  2 . How does the manager check the teachers' schedule at once?
+                  2 . How does the user show the feeds and upload the feeds?
                 </p>
                 <p className=" answser">
-                  - I used a scheduler so that the administrator could check the
-                  users (student) at a glance. <br></br>- I made a different
-                  scheduler for each teacher. Each scheduler contains users
-                  (students) held by the person in charge.
+                  - User can upload the feed to use this form. I connected this
+                  app to MongoDB, so all the feed are saved in the database.
                 </p>
                 <div className="minor-answer">
                   <i className="fa-solid fa-circle-check"></i>
-                  <h5>Each person's scheduler</h5>
+                  <h5>Upload form and live feeds</h5>
                 </div>
                 <div className="img-container">
-                  <img className="moving-img" src="img/scudule.gif" alt="" />
+                  <img className="moving-img" src="img/feed.png" alt="" />
                 </div>
 
                 <p className="minor-question">
-                  3 . All user information is information that needs security.
-                  How do you set up security?
+                  3 . How can user access his own profile?
                 </p>
                 <p className=" answser">
-                  - I used the firebase to store manager's email and password.
-                  If someone wants to access this website, his email and
-                  password should be saved in firebase <br></br>- Only
-                  authorized personnel (teachers, principals) are allowed
-                  access. The mail and password of the article are stored in the
-                  firebase.
+                  - User can access his profile, and there are his some info and
+                  feeds. He can edit his info in here.
                 </p>
                 <div className="minor-answer">
                   <i className="fa-solid fa-circle-check"></i>
-                  <h5>Manager Access</h5>
+                  <h5>User Access to Profile</h5>
                 </div>
                 <div className="img-container">
-                  <img src="img/login.png" className="moving-img" alt="" />
+                  <img src="img/profile.png" className="moving-img" alt="" />
                 </div>
               </div>
             </div>
@@ -124,7 +111,7 @@ const Info = () => {
                 <h4>Working on...</h4>
               </div>
               <p className="first-answer answser">
-                Now I'm going to include the chat function.
+                I'm Working on some minor bugs of database.
               </p>
             </div>
           </section>
@@ -134,4 +121,4 @@ const Info = () => {
   );
 };
 
-export default Info;
+export default InfoTwo;
