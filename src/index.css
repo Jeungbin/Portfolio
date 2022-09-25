@@ -264,11 +264,18 @@ span{
 
 .work{
     padding: 0.5rem;
-    display: grid;
+    display: flex;
+    justify-content: center;
     row-gap: 0.1rem;
-    border-radius:3rem;
+    transition: all 0.1s linear;
     width: 100%;
-
+    border: 2px solid #222;
+}
+.work:hover{
+    border: 4px solid rgb(181, 181, 181);
+}
+.workInnerContainer{
+    width: 95%;
 }
 
 .work-name{
@@ -295,10 +302,13 @@ span{
     z-index: -10;
  
 }
-
+.icons i {
+    font-size: 1rem;
+}
 .work-img{
     width: 360px;
     height: 250px;
+
     border-radius: var(--radius);
 }
 
@@ -313,14 +323,14 @@ span{
 
 @media screen and (min-width:1000px) {
     .works-container{
-        width: 70vw; 
+        width: 85vw; 
     }
     .work{
         width: 95%;
     }
     .work-img{
         width: 100%;
-        height: 100%;
+
 }}
 
 /*works container*/
@@ -380,7 +390,7 @@ span{
     margin: 5rem auto;
     margin-top: 3rem;
     text-align: center;
-    width: 65vw;
+    width: 80vw;
 }
 @media screen and (max-width : 1300px) {
     .about-container{width: 80vw;}
@@ -489,12 +499,7 @@ span{
     }
 }
 
-.work-img{
-    justify-self: center;
-    width: 360px;
-    height: 250px;
-    border-radius: var(--radius);
-}
+
 
 .work-explain{
     font-size: 15px;
