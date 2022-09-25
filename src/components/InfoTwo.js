@@ -29,7 +29,7 @@ const InfoTwo = () => {
                 <h4>Background</h4>
               </div>
               <p className="first-answer answser">
-                I created this web to practice react, express inter action, and
+                I created this web to practice react, express interworking, and
                 data management using mongodb.
               </p>
             </div>

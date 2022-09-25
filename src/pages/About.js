@@ -1,8 +1,15 @@
-import React from "react";
-
+import React, { useState } from "react";
+import certificate from "../components/certificate";
 import image4 from "../img/KakaoTalk_20220825_083817267.jpg";
+import "./about.css";
+
+import Carousel from "react-bootstrap/Carousel";
 
 const About = () => {
+  const [index, setIndex] = useState(0);
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
   return (
     <section className="about-container">
       <div className="center">
@@ -20,12 +27,24 @@ const About = () => {
               students at the academy has decreased significantly.
               <br />I realized that We should start online education. I designed
               the website with Figma, And I made the website to use the WIX.
+              <br></br>That was the first time, I has decided to be a web
+              developer.
               <br></br> I worked as a web designer for a year. I was interested
               in web design and development and I am studying hard to become a
               web developer.
             </p>
           </div>
         </section>
+
+        {/* <section className="certificate">
+          <div className="certificateContainer">
+            <i
+              className="fa-solid fa-chevron-right"
+              onSelect={handleSelect}
+            ></i>
+           
+          </div>
+        </section> */}
       </div>
       <div className="fonts">
         <a

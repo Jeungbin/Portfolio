@@ -1,0 +1,12 @@
+.certificate{
+    margin-top: 4rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.certificateImg{
+    width: 25rem;
+}
+.certificateContainer{
+    display: flex;
+}
