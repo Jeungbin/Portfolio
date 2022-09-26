@@ -1,15 +1,9 @@
-import React, { useState } from "react";
-import certificate from "../components/certificate";
+import React from "react";
+
 import image4 from "../img/KakaoTalk_20220825_083817267.jpg";
 import "./about.css";
 
-import Carousel from "react-bootstrap/Carousel";
-
 const About = () => {
-  const [index, setIndex] = useState(0);
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
   return (
     <section className="about-container">
       <div className="center">
