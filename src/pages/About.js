@@ -10,7 +10,7 @@ const About = () => {
         <section className="first-info">
           <img className="about-img" src={image4} alt="" />
           <div>
-            <h3>I'm Front-End Developer.</h3>
+            <h3>I'm a Web Developer.</h3>
             <br />
             <br />
             <p>
@@ -21,7 +21,7 @@ const About = () => {
               students at the academy has decreased significantly.
               <br />I realized that We should start online education. I designed
               the website with Figma, And I made the website to use the WIX.
-              <br></br>That was the first time, I has decided to be a web
+              <br></br>After this Experience, I has decided to be a web
               developer.
               <br></br> I worked as a web designer for a year. I was interested
               in web design and development and I am studying hard to become a
