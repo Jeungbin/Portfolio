@@ -1,12 +1,16 @@
 .certificate{
     margin-top: 4rem;
     width: 100%;
-    overflow: hidden;
+    overflow-x: scroll;
+
+  scrollbar-width: thin;
 }
 
 .certificateImg{
     width: 25rem;
+    border-radius: 1rem;
 }
 .certificateContainer{
     display: flex;
+    
 }

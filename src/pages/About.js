@@ -1,7 +1,9 @@
 import React from "react";
 
-import image4 from "../img/KakaoTalk_20220825_083817267.jpg";
+import image4 from "../img/main-img.png";
 import "./about.css";
+
+import certificate from "../components/certificate";
 
 const About = () => {
   return (
@@ -30,15 +32,20 @@ const About = () => {
           </div>
         </section>
 
-        {/* <section className="certificate">
+        <section className="certificate">
           <div className="certificateContainer">
-            <i
-              className="fa-solid fa-chevron-right"
-              onSelect={handleSelect}
-            ></i>
-           
+            {certificate.map((certificate) => {
+              return (
+                <img
+                  key={certificate.id}
+                  className="certificateImg"
+                  src={certificate.img}
+                  alt=""
+                />
+              );
+            })}
           </div>
-        </section> */}
+        </section>
       </div>
       <div className="fonts">
         <a
