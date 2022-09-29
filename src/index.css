@@ -367,8 +367,12 @@ span{
 }
 
 .detailInfo{
-    color: #222;
+    color: #ff6b35;
     font-size: 0.8rem;
+    transition: all 0.3s linear;
+}
+.detailInfo:hover{
+    color: #adb5bd;
 }
 
 /*Icons container*/
