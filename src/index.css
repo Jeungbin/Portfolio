@@ -98,11 +98,11 @@ span{
 
 .fa-circle-xmark{
     color: black;
-    font-size: 2rem;
+    font-size: 1rem;
     margin: 1rem 0;
 }
 
-.fa-star{
+.fa-hashtag{
     position: absolute;
     right: 3rem;
     top: 3.7rem;
@@ -111,13 +111,13 @@ span{
     cursor: pointer;
     transition: all 1s linear;
 }
-.fa-star:hover{
+.fa-hashtag:hover{
     transform: rotate(180deg);
     color: var(--base-green);
 }
 
 @media screen and (max-width:400px) {
-    .fa-star{
+    .fa-hashtag{
         position: absolute;
         right: 1rem;
         top: 1rem;
@@ -134,7 +134,7 @@ span{
     .main-name{
         margin-top: 5rem;
     }
-    .fa-star,
+    .fa-hashtag,
     .fa-circle-xmark,
     .links-container{
         display: none;

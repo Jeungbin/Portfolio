@@ -44,7 +44,7 @@ const Navbar = () => {
           setShowLinks(!showLinks);
         }}
         ref={starIconRef}
-        className={`fa-solid fa-star ${showLinks ? "disapearItem" : ""}`}
+        className={`fa-solid fa-hashtag ${showLinks ? "disapearItem" : ""}`}
       ></i>
       <div className="links-container" ref={linksContainerRef}>
         <i
