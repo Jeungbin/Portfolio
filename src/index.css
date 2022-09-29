@@ -389,7 +389,7 @@ span{
 
 /*About */
 .about-container{
-    margin: 7rem auto;
+    margin: 3rem auto;
     text-align: center;
     width: 80vw;
 }
@@ -413,13 +413,22 @@ span{
 
 }
 
-.fa-linkedin,
-.fa-blog{
+.fonts a{
     margin-right: 0.5rem;
     margin-left: 0.5rem;
-    margin-top: 2rem;
-    font-size: 3rem;
+    margin-top: 5rem;
+    font-size: 1rem;
     color: var(--base-brown);
+    transition: all 0.3s linear;
+}
+
+.fonts a:hover{
+    color: #222;
+}
+.email{
+    margin-top: 1rem;
+    color: #adb5bd;
+    margin-bottom: 2rem;
 }
 
 .not-yet{
@@ -436,9 +445,12 @@ span{
     .center{margin: 1rem;}
 }
 @media screen and (max-width : 950px) {
-    .about-container{width: 70vw;}
+    .first-info{
+        margin-top: 8rem;
+    }
+    .about-container{width: 90vw;}
     .about-img{
-        margin-bottom: 1rem;
+       display: none;
     }
 }
 @media screen and (max-width : 500px) {

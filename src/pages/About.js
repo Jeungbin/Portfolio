@@ -53,16 +53,17 @@ const About = () => {
           rel="noopener noreferrer"
           href="https://jeungbin.tistory.com/"
         >
-          <i className="fa-solid fa-blog"></i>
+          Blog
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/jeungbin-han-aa2815237"
         >
-          <i className="fa-brands fa-linkedin"></i>
+          Linkdin
         </a>
       </div>
+      <p className="email">Email : jeungbin.han@gmail.com</p>
     </section>
   );
 };

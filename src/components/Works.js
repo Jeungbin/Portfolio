@@ -141,6 +141,23 @@ const Works = () => {
           })}
         </div>
       </section>
+      <div className="fonts">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://jeungbin.tistory.com/"
+        >
+          Blog
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/jeungbin-han-aa2815237"
+        >
+          Linkdin
+        </a>
+      </div>
+      <p className="email">Email : jeungbin.han@gmail.com</p>
     </div>
   );
 };
