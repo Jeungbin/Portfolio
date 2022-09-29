@@ -53,7 +53,7 @@ const Works = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Linkdin
+                  LinkdiN
                 </a>
               </button>
             </div>
