@@ -51,6 +51,7 @@ const Works = () => {
                 <a
                   href="https://www.linkedin.com/in/jeungbin-han-aa2815237/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Linkdin
                 </a>
