@@ -19,12 +19,26 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-center">
         <Link style={linkStyle} to="/">
-          <h1 className="main-name">
-            Hello I'm Jeungbin Han<br></br>
-            <span className="main-name2">This is my Portfolio</span>
-          </h1>
+          <p className="main-name">
+            Jeungbin Han<br></br>
+          </p>
         </Link>
+        <div className="big-screen-nav-containers">
+          <ul className="big-screen-nav-links">
+            <li>
+              <Link style={linkStyle} to="/">
+                <p className="big-screen-nav-link">Home</p>
+              </Link>
+            </li>
+            <li>
+              <Link style={linkStyle} to="/about">
+                <p className="big-screen-nav-link">About</p>
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
+
       <i
         onClick={() => {
           setShowLinks(!showLinks);
@@ -46,20 +60,6 @@ const Navbar = () => {
           <li>
             <Link style={linkStyle} to="/about">
               <p className="nav-link">About</p>
-            </Link>
-          </li>
-        </ul>
-      </div>
-      <div className="big-screen-nav-containers">
-        <ul className="big-screen-nav-links">
-          <li>
-            <Link style={linkStyle} to="/">
-              <p className="big-screen-nav-link">Home</p>
-            </Link>
-          </li>
-          <li>
-            <Link style={linkStyle} to="/about">
-              <p className="big-screen-nav-link">About</p>
             </Link>
           </li>
         </ul>

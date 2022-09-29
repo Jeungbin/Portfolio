@@ -12,7 +12,7 @@ const About = () => {
         <section className="first-info">
           <img className="about-img" src={image4} alt="" />
           <div>
-            <h3>I'm a Web Developer.</h3>
+            <h3>I'm a Full Stack Developer.</h3>
             <br />
             <br />
             <p>

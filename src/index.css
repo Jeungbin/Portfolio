@@ -36,14 +36,16 @@ span{
 
 .nav-center{
     display: flex;
+    justify-content: space-between;
     width: 75vw;
     margin: 0 auto;
 }
 
 .main-name{
-    font-weight: 500;
+    color: #adb5bd;
+    font-weight: 300;
     margin-top: 3rem;
-    font-size: 2rem;
+    font-size: 1rem;
     transition: all 0.3s linear;
 }
 .main-name:hover,
@@ -58,7 +60,7 @@ span{
 }
 @media screen and (min-width:1000px) {
     .main-name{
-        font-weight: 600;
+        font-weight: 500;
 
     }
     .main-name2{
@@ -147,7 +149,7 @@ span{
     background-color: transparent;
     }
     .big-screen-nav-links{
-        margin-top: 5.5rem;
+        margin-top: 4.5rem;
         display: flex;
         padding-top: 0.3rem;
     }
@@ -387,8 +389,7 @@ span{
 
 /*About */
 .about-container{
-    margin: 5rem auto;
-    margin-top: 3rem;
+    margin: 7rem auto;
     text-align: center;
     width: 80vw;
 }

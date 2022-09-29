@@ -2,6 +2,8 @@ import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import data from "./data";
+import "./main.css";
+import myImg from "../img/Group.png";
 
 const newArray = data.map((item) => {
   return item.stack;
@@ -32,6 +34,33 @@ const Works = () => {
   return (
     <div className="main-container">
       <section className="section-center">
+        <section className="main-info-container">
+          <div>
+            <h3 className="greet">Hi, I'm Jeungbin</h3>
+            <p className="job-info">
+              Full Stack Developer
+              <br></br>
+              <span>
+                I love to design a website to use Figma. <br></br>
+                and build a real website to use React and Express.
+              </span>
+            </p>
+
+            <div className="button-container">
+              <button className="linkedin-button">
+                <a
+                  href="https://www.linkedin.com/in/jeungbin-han-aa2815237/"
+                  target="_blank"
+                >
+                  Linkdin
+                </a>
+              </button>
+            </div>
+          </div>
+          <div>
+            <img className="main-info-img" src={myImg} alt="" />
+          </div>
+        </section>
         <div className="category-container">
           <div className="button-center">
             {categories.map((category, index) => {

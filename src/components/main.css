@@ -1,0 +1,70 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.main-info-container{
+    width: 60%;
+    height: 35rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.greet{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.main-info-img{
+    height: 20rem;
+}
+.job-info{
+    font-size: 1rem;
+    color: grey;
+    margin-bottom: 4rem;
+}
+.job-info span{
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: grey;
+    font-weight: 300;
+}
+.button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.linkedin-button{
+    letter-spacing:2px;
+    border: none;
+    background-color: #ff6b35;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: all 0.3s linear;
+}
+.linkedin-button:hover{
+    border: 3px solid #ff6b35;
+    background-color: white;
+    color: black;
+}
+
+ @media screen and (max-width:1200px) {
+    .main-info-img{
+        height: 15rem;
+    }
+ }
+
+ @media screen and (max-width:900px) {
+    .main-info-container{
+        width: 80%;
+
+    }
+ }
+ @media screen and (max-width:550px) {
+    .main-info-img{
+        display: none;
+    }
+    .main-info-container{
+        justify-content: center;
+    }
+ }
